@@ -100,8 +100,6 @@ To
 
 ## Links
 
-## Links
-
 1. [Embassy-rs](https://embassy.dev/)
 2. [Rust Embedded Book](https://docs.rust-embedded.org/book/)
 3. [STM32 NUCLEO-U545RE-Q Overview](https://www.st.com/en/evaluation-tools/nucleo-u545re-q.html)
