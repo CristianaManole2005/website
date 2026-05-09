@@ -18,7 +18,7 @@ Ultrasonic sensors will detect the presence of a vehicle inside or near the gara
 
 A temperature and humidity sensor will monitor the garage environment. If the measured values exceed predefined thresholds, a ventilation system simulated using a motor with fan blades will automatically start. The fan can also be controlled manually using push buttons.
 
-LEDs will provide visual feedback for vehicle presence, fan status, light status, and fault conditions.
+Limit switches will be used to monitor the garage door open and closed positions. LEDs will provide visual feedback for vehicle presence, fan status, light status, and fault conditions.
 
 The system will communicate over Ethernet using the W5500 module and send real-time data to a monitoring dashboard running on a laptop connected to the same local network. The dashboard will display sensor values, vehicle presence, fan status, light status, door state, and operating mode.
 
