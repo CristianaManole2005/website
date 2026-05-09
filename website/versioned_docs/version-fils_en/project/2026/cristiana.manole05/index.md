@@ -61,7 +61,7 @@ The project is based on the **STM32 NUCLEO-U545RE-Q** development board, used as
 
 ### Schematics
 
-![Kicad schematics](smart_garage.svg)
+![Kicad schematics](smart_garage.webp)
 ![hardware photo](hardware_smart_garage.webp)
 
 ### Bill of Materials
