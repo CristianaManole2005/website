@@ -18,7 +18,7 @@ Ultrasonic sensors will detect the presence of a vehicle inside or near the gara
 
 A temperature and humidity sensor will monitor the garage environment. If the measured values exceed predefined thresholds, a ventilation system simulated using a motor with fan blades will automatically start. The fan can also be controlled manually using push buttons.
 
-Limit switches will be used to monitor the garage door open and closed positions. LEDs will provide visual feedback for vehicle presence, fan status, light status, and fault conditions.
+LEDs will provide visual feedback for vehicle presence, fan status, light status, and fault conditions.
 
 The system will communicate over Ethernet using the W5500 module and send real-time data to a monitoring dashboard running on a laptop connected to the same local network. The dashboard will display sensor values, vehicle presence, fan status, light status, door state, and operating mode.
 
@@ -46,14 +46,14 @@ This system is built using the **STM32 NUCLEO-U545RE-Q** development board, whic
 
 ## Log
 
-<!-- write your progress here every week -->
-
 ### Week 3-5
 I researched several possible project ideas and analyzed different concepts before choosing the smart garage system. After deciding on the final direction, I started identifying the hardware components needed for implementation. I looked into sensor modules, networking options, actuator control, user input methods, and visual feedback components compatible with the NUCLEO-U545RE-Q board.
 
 ### Week 8
 During this week, I received the hardware components and tested them individually.
- 
+
+### Week 11
+I assembled all the components on the breadboard, connected them according to the planned circuit, and created the complete circuit schematic in KiCad.
 
 ## Hardware
 
@@ -61,7 +61,8 @@ The project is based on the **STM32 NUCLEO-U545RE-Q** development board, used as
 
 ### Schematics
 
-To
+![Kicad schematics](smart_garage.svg)
+![hardware photo](hardware_smart_garage.webp)
 
 ### Bill of Materials
 
@@ -75,7 +76,6 @@ To
 | DC Motor + Fan Blades | Ventilation system simulation | Already owned |
 | Push Buttons | Manual fan control | Already owned |
 | LED Kit | Visual system status indicators | [~19 RON](https://www.emag.ro/kit-200-buc-led-3mm-5mm-de-diferite-culori-ai707/pd/D4DJYTMBM/) |
-| Limit Switches | Garage door position detection | 10 RON |
 | Breadboard MB102 | Prototyping and circuit assembly | 17 RON |
 | Jumper Wire Kit | Electrical connections | [47 RON](https://www.emag.ro/set-cabluri-dupont-trexora-120-piese-20cm-multicolor-pentru-proiecte-electronice-dzme069/pd/DRCFXS3BM/) |
 | Resistor Kit | LED current limiting and circuits | [38 RON](https://www.emag.ro/set-600-rezistori-sinbinta-set-rezistori-1-4w-10-1m-30-tipuri-toleranta-1-20-de-bucati-pentru-fiecare-valoare-ideal-pentru-proiecte-electronice-si-ingineri-metal-130-22-80mm-multicolor-ww-462/pd/DGZ93K3BM/) |
